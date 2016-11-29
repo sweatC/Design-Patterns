@@ -10,16 +10,22 @@ namespace AbstractFactory
     {
         AbstractBottle bottle;
         AbstractWater water;
+        AbstractCover cover;
+        AbstractLabel label;
 
         public Client(AbstractFactory factory)
         {
             bottle = factory.CreateBottle();
             water = factory.CreateWater();
+            cover = factory.CreateCover();
+            label = factory.CreateLabel();
         }
 
         public void Run()
         {
             bottle.Interact(water);
+            cover.Interact(bottle);
+            label.Interact(bottle);
         }
     }
 }
