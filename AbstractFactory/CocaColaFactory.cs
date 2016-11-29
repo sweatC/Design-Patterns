@@ -22,5 +22,10 @@ namespace AbstractFactory
         {
             return new CocaColaCover();
         }
+
+        public override AbstractLabel CreateLabel()
+        {
+            return new CocaColaLabel();
+        }
     }
 }

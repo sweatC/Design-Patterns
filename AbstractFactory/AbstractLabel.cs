@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace AbstractFactory
 {
-    class AbstractLabel
+    abstract class AbstractLabel
     {
-        public void Interact(AbstractBottle bottle)
-        {
-            Console.WriteLine(this + " interact with " + bottle);
-        }
+        public abstract void Interact(AbstractBottle bottle);
     }
 }

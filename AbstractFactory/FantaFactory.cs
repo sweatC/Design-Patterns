@@ -18,6 +18,11 @@ namespace AbstractFactory
             return new FantaCover();
         }
 
+        public override AbstractLabel CreateLabel()
+        {
+            return new FantaLabel();
+        }
+
         public override AbstractWater CreateWater()
         {
             return new FantaWater();
