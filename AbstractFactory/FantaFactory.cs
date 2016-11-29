@@ -10,17 +10,17 @@ namespace AbstractFactory
     {
         public override AbstractBottle CreateBottle()
         {
-            throw new NotImplementedException();
+            return new FantaBottle();
         }
 
         public override AbstractCover CreateCover()
         {
-            throw new NotImplementedException();
+            return new FantaCover();
         }
 
         public override AbstractWater CreateWater()
         {
-            throw new NotImplementedException();
+            return new FantaWater();
         }
     }
 }

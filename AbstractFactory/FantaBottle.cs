@@ -10,7 +10,7 @@ namespace AbstractFactory
     {
         public override void Interact(AbstractWater water)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(this + " interact with " + water);
         }
     }
 }

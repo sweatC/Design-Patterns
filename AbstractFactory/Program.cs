@@ -13,6 +13,8 @@ namespace AbstractFactory
             Client client = null;
             client = new Client(new CocaColaFactory());
             client.Run();
+            client = new Client(new FantaFactory());
+            client.Run();
         }
     }
 }

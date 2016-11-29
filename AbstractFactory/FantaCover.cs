@@ -10,7 +10,7 @@ namespace AbstractFactory
     {
         public override void Interact(AbstractBottle bottle)
         {
-            throw new NotImplementedException();
+            Console.WriteLine(this + " interact with " + bottle);
         }
     }
 }
