@@ -32,6 +32,12 @@ namespace Builder
 
         public override Product GetResult()
         {
+            product.Add(new CocaColaBottle());
+            product.Add(new CocaColaWater());
+            product.Add(new CocaColaCover());
+            product.Add(new CocaColaLabel());
+
+            return product; 
         }
     }
 }

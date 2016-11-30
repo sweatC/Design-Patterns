@@ -10,6 +10,11 @@ namespace Builder
     {
         static void Main(string[] args)
         {
+            Builder builder = new CocaColaBuilder();
+            Director director = new Director();
+            Product product = builder.GetResult();
+            director.Construct(builder);
+            product.Show();
         }
     }
 }
