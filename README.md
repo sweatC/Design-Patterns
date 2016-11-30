@@ -1,7 +1,7 @@
 # Design-Patterns
-Software design patterns.
+Software Design Patterns.
 ---
-Abstract Factory
+  Abstract Factory
 ![alt text](AbstractFactory/abstractFactory.PNG)
-Builder
+  Builder
 ![alt text](Builder/Builder.PNG)
