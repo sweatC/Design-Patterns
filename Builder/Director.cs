@@ -8,9 +8,12 @@ namespace Builder
 {
     class Director
     {
-        public Director()
+        public void Construct(Builder b)
         {
-
+            b.BuildBottle();
+            b.BuildWater();
+            b.BuildCover();
+            b.BuildLabel();
         }
     }
 }

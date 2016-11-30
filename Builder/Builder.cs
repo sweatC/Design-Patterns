@@ -12,5 +12,6 @@ namespace Builder
         public abstract void BuildWater();
         public abstract void BuildCover();
         public abstract void BuildLabel();
+        public abstract Product GetResult();
     }
 }
