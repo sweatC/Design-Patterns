@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    class Program
+    class ConcreteCreator : Creator
     {
-        static void Main(string[] args)
+        public override Product FactoryMethod()
         {
-            Creator creator = new ConcreteCreator();
-
-            Product product = creator.FactoryMethod();
-
+            return new ConcreteProduct();
         }
     }
 }

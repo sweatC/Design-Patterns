@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod
 {
-    class Program
+    class ConcreteProduct : Product
     {
-        static void Main(string[] args)
+        public ConcreteProduct()
         {
-            Creator creator = new ConcreteCreator();
-
-            Product product = creator.FactoryMethod();
-
+            Console.WriteLine(this.GetHashCode());
         }
     }
 }
