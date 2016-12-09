@@ -23,6 +23,32 @@ namespace Prototype
             {
                 Console.WriteLine("Ooooops");
             }
+
+            Prototype p = new ConcretePrototype(0);
+
+            var Hug = p.Clone(1);
+
+            var Kiss = Hug.Clone(2);
+
+            var Sex = Kiss.Clone(3);
+
+            var Wedding = Sex.Clone(4);
+
+            var Family = Wedding.Clone(5);
+
+            Dictionary<Prototype, string> protos =  new Dictionary<Prototype, string>
+            {
+                { Hug, "Hug" },
+                { Kiss, "Kiss" },
+                { Sex, "Sex" },
+                { Wedding, "Wedding" },
+                { Family, "Family" }
+            };
+
+            foreach (var prot in protos)
+            {
+                Console.WriteLine(prot.Value + " " +  prot.Key.Id);
+            }
         }
     }
 }
