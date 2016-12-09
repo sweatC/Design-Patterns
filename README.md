@@ -7,3 +7,5 @@ Software Design Patterns.
 ![alt text](Builder/Builder.PNG)
 ###Factory Method
 ![alt text](FactoryMethod/FactoryMethod.PNG)
+###Prototype
+![alt text](Prototype/Prototype.PNG)
