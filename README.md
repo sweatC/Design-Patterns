@@ -2,7 +2,7 @@
 Software Design Patterns.
 ---
 ###Abstract Factory
-![alt text](AbstractFactory/abstractFactory.PNG)
+![alt text](AbstractFactory/AbstractFactory.PNG)
 ###Builder
 ![alt text](Builder/Builder.PNG)
 ###Factory Method
