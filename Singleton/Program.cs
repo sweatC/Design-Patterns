@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Singleton
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Singleton my = Singleton.Instance();
+
+            my.Name = "John";
+            Console.WriteLine(my.Name);
+            Singleton my2 = Singleton.Instance();
+            Console.WriteLine(my2.Name);
+        }
+    }
+}
