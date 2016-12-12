@@ -9,3 +9,5 @@ Software Design Patterns.
 ![alt text](FactoryMethod/FactoryMethod.PNG)
 ###Prototype
 ![alt text](Prototype/Prototype.PNG)
+###Singleton
+![alt text](Singleton/Singleton.PNG)
