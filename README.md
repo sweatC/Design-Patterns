@@ -11,3 +11,7 @@ Software Design Patterns.
 ![alt text](Prototype/Prototype.PNG)
 ###Singleton
 ![alt text](Singleton/Singleton.PNG)
+###Adapter
+![alt text](Adapter/Adapter(classes).PNG)
+![alt text](Adapter/Adapter(object).PNG)
+
