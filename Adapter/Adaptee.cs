@@ -10,7 +10,7 @@ namespace Adapter
     {
         public void SpecificRequest()
         {
-            Console.WriteLine("Booom!!!");
+            Console.WriteLine("Classes Booom!!!");
         }
     }
 }

@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Adapter
+namespace Adapter.Objects
 {
-    class Program
+    class Adaptee
     {
-        static void Main(string[] args)
+        public void SpecificRequest()
         {
-            new Adapter().Request();
-            new Objects.Adapter().Request();
+            Console.WriteLine("Objects BOOOOOM!!!!");
         }
     }
 }
