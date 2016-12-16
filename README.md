@@ -14,4 +14,6 @@ Software Design Patterns.
 ###Adapter
 ![alt text](Adapter/Adapter(classes).PNG)
 ![alt text](Adapter/Adapter(object).PNG)
-
+###Bridge
+![alt text](Bridge/BridgeMetaphor.PNG)
+![alt text](Bridge/Bridge.PNG)
