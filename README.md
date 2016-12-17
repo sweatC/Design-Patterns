@@ -17,3 +17,5 @@ Software Design Patterns.
 ###Bridge
 ![alt text](Bridge/BridgeMetaphor.PNG)
 ![alt text](Bridge/Bridge.PNG)
+###Composite
+![alt text](Composite/Composite.PNG)
