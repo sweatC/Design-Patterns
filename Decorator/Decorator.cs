@@ -12,7 +12,8 @@ namespace Decorator
 
         public override void Operation()
         {
-            component.Operation();
+            if(component != null)
+                component.Operation();
         }
 
         public Component Component

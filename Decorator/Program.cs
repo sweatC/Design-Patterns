@@ -15,9 +15,10 @@ namespace Decorator
             Decorator decorState = new ConcreteDecorator1();
             Decorator decorBehavior = new ConcreteDecorator2();
 
-            decorBehavior.Component = decorState;
             decorState.Component = sys;
-            sys.Operation();
+            decorBehavior.Component = decorState;
+            
+            decorBehavior.Operation();
         }
     }
 }
