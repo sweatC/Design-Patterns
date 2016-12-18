@@ -19,3 +19,5 @@ Software Design Patterns.
 ![alt text](Bridge/Bridge.PNG)
 ###Composite
 ![alt text](Composite/Composite.PNG)
+###Decorator
+![alt text](Decorator/Decorator.PNG)
