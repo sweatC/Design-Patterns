@@ -13,6 +13,8 @@ namespace Facade
             Facade facade = new Facade();
             facade.MethodOne();
             facade.MethodTwo();
+            
+            
         }
     }
 }
