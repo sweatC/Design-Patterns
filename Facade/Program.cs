@@ -10,6 +10,9 @@ namespace Facade
     {
         static void Main(string[] args)
         {
+            Facade facade = new Facade();
+            facade.MethodOne();
+            facade.MethodTwo();
         }
     }
 }

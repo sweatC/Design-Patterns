@@ -8,7 +8,7 @@ namespace Facade
 {
     class SubSystem3
     {
-        private int eventNumber = 0;
+        private static int eventNumber = 0;
 
         public void MethodThree()
         {
