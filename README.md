@@ -23,3 +23,5 @@ Software Design Patterns.
 ![alt text](Decorator/Decorator.PNG)
 ###Facade
 ![alt text](Facade/Facade.PNG)
+###Flyweight
+![alt text](Flyweight/Flyweight.PNG)
