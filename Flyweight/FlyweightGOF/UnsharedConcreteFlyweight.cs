@@ -12,6 +12,7 @@ namespace FlyweightGOF
         public override void Operation(int extrState)
         {
             allState = extrState;
+            Console.WriteLine(allState);
         }
     }
 }
