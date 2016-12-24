@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Proxy
 {
-    class RealSubject
+    class RealSubject : Subject
     {
+        public override void Request()
+        {
+            Console.WriteLine("Real Subj! =)");
+        }
     }
 }
