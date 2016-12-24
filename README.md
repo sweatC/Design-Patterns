@@ -25,3 +25,5 @@ Software Design Patterns.
 ![alt text](Facade/Facade.PNG)
 ###Flyweight
 ![alt text](Flyweight/Flyweight.PNG)
+###Proxy
+![alt text](Proxy/Proxy.PNG)
