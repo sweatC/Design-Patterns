@@ -27,3 +27,6 @@ Software Design Patterns.
 ![alt text](Flyweight/Flyweight.PNG)
 ###Proxy
 ![alt text](Proxy/Proxy.PNG)
+###Chain of Responsibility
+![alt text](ChainOfResponsibility/ChainOfResponsibility.png)
+![alt text](ChainOfResponsibility/ChainOfResponsibilityStructure.PNG)
