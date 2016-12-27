@@ -30,3 +30,5 @@ Software Design Patterns.
 ###Chain of Responsibility
 ![alt text](ChainOfResponsibility/ChainOfResponsibility.png)
 ![alt text](ChainOfResponsibility/ChainOfResponsibilityStructure.PNG)
+###Command
+![alt text](Command/CommandClassic.PNG)
