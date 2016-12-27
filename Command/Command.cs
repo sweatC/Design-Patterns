@@ -8,5 +8,13 @@ namespace Command
 {
     abstract class Command
     {
+        protected Receiver receiver;
+
+        public Command(Receiver r)
+        {
+            receiver = r;
+        }
+
+        public abstract void Execute();
     }
 }

@@ -8,5 +8,11 @@ namespace Command
 {
     class Receiver
     {
+        public void Action()
+        {
+            Console.WriteLine("I executed your command and...");
+            Console.WriteLine("Cooked the dinner :)");
+            Console.WriteLine("Help yourself!");
+        }
     }
 }

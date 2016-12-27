@@ -8,5 +8,16 @@ namespace Command
 {
     class Invoker
     {
+        Command command;
+
+        public Command SetCommand
+        {
+            set { command = value; }
+        }
+
+        public void ExecuteCommand()
+        {
+            command.Execute();
+        }
     }
 }
