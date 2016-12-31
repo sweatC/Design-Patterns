@@ -10,6 +10,15 @@ namespace Iterator
     {
         static void Main(string[] args)
         {
+            Aggregate a = new ConcreteAggregate();
+
+            for (var j = 0; j < 3; j++)
+                a[j] = "Element " + j;
+
+            Iterator i = a.CreateIterator();
+
+            for(i.First(); !i.IsDone(); i.Next())
+                Console.WriteLine(i.CurrentItem());
         }
     }
 }
