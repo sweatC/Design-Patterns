@@ -34,3 +34,4 @@ Software Design Patterns.
 ![alt text](Command/CommandClassic.PNG)
 ###Iterator
 ![alt text](Iterator/Iterator.PNG)
+![alt text](Iterator/IteratorMs.PNG)
