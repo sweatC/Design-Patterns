@@ -32,3 +32,5 @@ Software Design Patterns.
 ![alt text](ChainOfResponsibility/ChainOfResponsibilityStructure.PNG)
 ###Command
 ![alt text](Command/CommandClassic.PNG)
+###Iterator
+![alt text](Iterator/Iterator.PNG)
