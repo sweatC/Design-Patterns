@@ -1,39 +1,39 @@
 # Design-Patterns
 Software Design Patterns.
 ---
-###Abstract Factory
+### Abstract Factory
 ![alt text](AbstractFactory/AbstractFactory.PNG)
-###Builder
+### Builder
 ![alt text](Builder/Builder.PNG)
-###Factory Method
+### Factory Method
 ![alt text](FactoryMethod/FactoryMethod.PNG)
-###Prototype
+### Prototype
 ![alt text](Prototype/Prototype.PNG)
-###Singleton
+### Singleton
 ![alt text](Singleton/Singleton.PNG)
-###Adapter
+### Adapter
 ![alt text](Adapter/Adapter(classes).PNG)
 ![alt text](Adapter/Adapter(object).PNG)
-###Bridge
+### Bridge
 ![alt text](Bridge/BridgeMetaphor.PNG)
 ![alt text](Bridge/Bridge.PNG)
-###Composite
+### Composite
 ![alt text](Composite/Composite.PNG)
-###Decorator
+### Decorator
 ![alt text](Decorator/Decorator.PNG)
-###Facade
+### Facade
 ![alt text](Facade/Facade.PNG)
-###Flyweight
+### Flyweight
 ![alt text](Flyweight/Flyweight.PNG)
-###Proxy
+### Proxy
 ![alt text](Proxy/Proxy.PNG)
-###Chain of Responsibility
+### Chain of Responsibility
 ![alt text](ChainOfResponsibility/ChainOfResponsibility.png)
 ![alt text](ChainOfResponsibility/ChainOfResponsibilityStructure.PNG)
-###Command
+### Command
 ![alt text](Command/CommandClassic.PNG)
-###Iterator
+### Iterator
 ![alt text](Iterator/Iterator.PNG)
 ![alt text](Iterator/IteratorMs.PNG)
-###Mediator
+### Mediator
 ![alt text](Mediator/Mediator.PNG)
