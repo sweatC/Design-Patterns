@@ -1,4 +1,4 @@
-![alt text](https://travis-ci.org/sweatC/Design-Patterns.svg?branch=master)
+
 # Design-Patterns
 Software Design Patterns.
 ---
