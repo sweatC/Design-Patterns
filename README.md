@@ -38,3 +38,5 @@ Software Design Patterns.
 ![alt text](Iterator/IteratorMs.PNG)
 ### Mediator
 ![alt text](Mediator/Mediator.PNG)
+### Visitor
+![alt text](Visitor/Visitor.png)
