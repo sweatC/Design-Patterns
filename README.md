@@ -40,3 +40,5 @@ Software Design Patterns.
 ![alt text](Mediator/Mediator.PNG)
 ### Visitor
 ![alt text](Visitor/Visitor.png)
+### SOA
+![alt text](SOA/rest_messages.jpg)
